@@ -1,6 +1,7 @@
 from app.extensions import db
 
 
+
 class Question(db.Model):
     __tablename__ = 'question'
 
